@@ -1,0 +1,78 @@
+.event-body {
+    background-color: #111827;
+}
+
+.event {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-head {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.event-grid {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    display: block;
+}
+
+.event-item {
+    padding: 0px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.event-item-image {
+    border-radius: 0.25rem;
+    /*Bawaan*/
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+    border-style: solid;
+}
+
+.event-detail {
+    padding: 1rem;
+    padding-left: 0px;
+}
+
+.event-detail-title {
+    color: #ffff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.event-detail-description {
+    color: #D1D5DB;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.event-detail-read {}
+
+@media (min-width: 720px) {}
+
+@media (min-width: 992px) {
+    .event-grid {
+        display: flex;
+    }
+
+    .event-item {
+        width: 33.33%;
+        padding: 0px;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+}

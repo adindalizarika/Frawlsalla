@@ -1,0 +1,60 @@
+.screenshot{
+    background-color: #111827;
+}
+
+.screenshot-head{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.screenshot-head-image{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    margin-top: 4rem;
+    height: 20rem;
+    border-radius: 0.375rem;
+}
+
+.screenshot-bottom{
+    padding: 1rem 1.5rem 4rem 1.5rem;
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshot-left{
+    width: 100%;
+    align-items: center;
+}
+.screenshot-left-image{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.375rem;
+    object-position: center;
+    object-fit: cover;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+@media (min-width: 720px){
+    .screenshot-bottom{
+        display: flex;
+        align-items: center;
+    }
+    .screenshot-left-list{
+        display: flex;
+        align-items: center;
+    }
+    .screenshot-left-image{
+        margin-top:2rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+}

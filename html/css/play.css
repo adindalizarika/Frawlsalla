@@ -1,0 +1,133 @@
+.play {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    background-color: #111827;
+}
+
+.play-content {
+    padding: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #F3F4F6;
+    width: 91.66%;
+}
+
+.play-content-head {
+    text-align: center;
+}
+
+.play-content-title {
+    margin: 0;
+    color: #C1950E;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.play-form {
+    margin-top: 1.5rem;
+}
+
+.play-form-item {
+    margin-bottom: 1rem;
+}
+
+.play-form-input {
+    width: 100%;
+    color: #374151;
+    background-color: #E5E7EB;
+    padding: 0.75rem;
+    margin: 0.5rem 0 0 0;
+    display: block;
+    appearance: none;
+    line-height: inherit;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.play-form-input:focus {
+    background-color: #D1D5DB;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.play-form-select {
+    width: 100%;
+    color: #374151;
+    background-color: #E5E7EB;
+    padding: 0.75rem 2rem 0.75rem 1rem;
+    margin: 0.5rem 0 0 0;
+    line-height: 1.25;
+    display: block;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    border-color: #E5E7EB;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.play-form-select:focus {
+    background-color: #D1D5DB;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.play-form-label {
+    color: #4B5563;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    display: block;
+}
+
+.play-form-checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.play-form-checkbox-text {
+    margin-left: 0.5rem;
+    color: #374151;
+}
+
+.play-form-submit {
+    width: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffff;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 0.75rem 0 0.75rem 0;
+    line-height: inherit;
+    margin: 1.5rem 0 0 0;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    background-color: #0B0B0B;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.play-form-submit:hover {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000;
+    background-color: #111827;
+}
+
+.play-form-submit:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 720px) {
+    .play-content {
+        width: 41.66%;
+    }
+}
